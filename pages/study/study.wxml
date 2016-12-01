@@ -1,0 +1,16 @@
+<view class="lsit">
+    <view class="liItem" wx:for="{{lists}}" wx:key="item.id">
+        <view class="liImgs">
+            <image src="http://phptest.guoxinad.com.cn/insun_mediawap/{{item.mainimg}}" class="liImg" />
+        </view>
+        <view class="liDiv">
+            <text class="liTit">{{item.title}}</text>
+            <text class="liCnt">{{item.content}}</text>
+        </view>
+    </view>
+
+    <view class="seeMore">
+        <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover" class="moreBtn" bindtap="getMore"> 查看更多 </button>
+    </view>
+</view>
+

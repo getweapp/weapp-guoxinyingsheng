@@ -1,0 +1,22 @@
+<view class="personal">
+    <view>
+        <image src="../../images/1.jpg"  class="perImg" />
+    </view>
+
+    <view class="perItem mt20">
+        <text class="perLef">座右铭：</text>
+        <text class="perRig">不在BUG中生存，就在BUG中灭亡</text>
+    </view>
+
+    <view class="perItem">
+        <view class="perLef">个人爱好：</view>
+        <text class="perRig">吃、喝、玩、旅行</text>
+    </view>
+
+    <view class="perItem">
+        <view class="perLef">QQ群：</view>
+        <text class="perRig">499859691</text>
+    </view>
+
+    
+</view>

@@ -1,0 +1,21 @@
+<view class="register">
+    <form bindsubmit="formSubmit">
+        <view>
+            <input type="text" class="input" placeholder="用户名" placeholder-class="input-placeholder" />
+        </view>
+
+        <view>
+            <input type="text" class="input" placeholder="密码" placeholder-class="input-placeholder" password="true" />
+        </view>
+
+        <view>
+            <input type="text" class="input" placeholder="确认密码" placeholder-class="input-placeholder" password="true" />
+        </view>
+
+        <view>
+            <button class="reg-btn" formType="submit">注  册</button>
+        </view>
+
+        <navigator class="quickLog" url="../login/login">已注册，去登录</navigator>
+    </form>
+</view>

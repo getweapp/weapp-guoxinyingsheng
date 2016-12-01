@@ -1,0 +1,5 @@
+.login { width: 80%; margin: 100px auto 0; } 
+    .input {  padding: 3px 5px; height: 28px; border: 1px solid #ccc; border-radius: 3px; margin-bottom: 16px; font-size: 0.8rem; }
+    .login-btn { height: 36px; line-height: 36px; background: #333; color: #fff; }
+    .quickReg { font-size: 0.8rem; color: #888; padding-top: 8px; }
+

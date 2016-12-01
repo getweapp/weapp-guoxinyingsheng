@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+
+
+/*列表公用*/
+.lsit { width: 100%; text-align:center; }
+    .liItem { margin-bottom: 12px; position: relative; }
+        .liImgs { width:100%; height:200px; overflow:hidden; }
+            .liImg { width: 100%; }
+        .liDiv { width: 100%; height: 100%; background: rgba(0,0,0,.6); position: absolute; top: 0; left: 0; z-index: 3; color: #fff; }
+        .liDiv text { display: block; }
+            .liTit { padding-top: 50px; font-size: 1.2rem; }
+            .liCnt { padding-top: 20px; font-size: 0.8rem; }

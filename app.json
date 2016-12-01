@@ -1,0 +1,65 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/show/show",
+    "pages/interact/interact",
+    "pages/game/game",
+    "pages/study/study",
+    "pages/personal/personal",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window":{
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#36c",
+    "navigationBarTitleText": "国信映盛",
+    "navigationBarTextStyle":"light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#2aabf3",
+    "borderStyle": "#2aabf3",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/i1_1.png",
+        "selectedIconPath": "images/i1_2.png"
+      },
+      {
+        "pagePath": "pages/show/show",
+        "text": "展示",
+        "iconPath": "images/i1_1.png",
+        "selectedIconPath": "images/i1_2.png"
+      },
+      {
+        "pagePath": "pages/interact/interact",
+        "text": "互动",
+        "iconPath": "images/i2_1.png",
+        "selectedIconPath": "images/i2_2.png"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "text": "游戏",
+        "iconPath": "images/i3_1.png",
+        "selectedIconPath": "images/i3_2.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "text": "研究",
+        "iconPath": "images/i4_1.png",
+        "selectedIconPath": "images/i4_2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 20000,
+    "uploadFile": 30000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
